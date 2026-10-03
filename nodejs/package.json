@@ -1,0 +1,13 @@
+{
+  "name": "ultra-paketci",
+  "version": "0.3.0",
+  "private": true,
+  "description": "Ultra Paketci - Gelismis Kurye Sistemi'nin genisletilmis surumu: kurye kendi paketini kendi alir, gercek SambaPOS odeme turleriyle teslim eder, restoran canli izler, sesli alarm/arka plan bildirim/odeme kirilim raporlari icerir.",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "web-push": "^3.6.7",
+    "ws": "^8.18.0"
+  }
+}
